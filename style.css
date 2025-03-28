@@ -1,0 +1,22 @@
+table{
+    width: 100%;/*Hace que la tavbala ocupe todo el anchode la apgina */
+    margin: 20px 0; /*Margenes de la tabla*/
+}
+body{
+    background-color: aqua;
+}
+th td{
+    padding: 10px;/*Reeleno dentro de las celdas*/
+    text-align: left;/*Alinea el texto a la izquierda*/
+    border: 3px solid #ddd ;
+}
+th{
+    background-color: beige;/*Fondo para el encabezado*/
+    color: blue;
+}
+tr:hover{
+    background-color: blueviolet;
+}
+tr:hover{
+    background-color: brown;/*Cambia el fonfo de las celdas al pasar el mouse*/
+}
